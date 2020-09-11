@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { createReducer } from "@reduxjs/toolkit";
+
 import { Type } from "./contactsActionsTypes";
 
 const contacsReducer = (state = [], { type, payload }) => {
